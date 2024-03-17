@@ -1,7 +1,5 @@
 # Personal Portfolio Website
 
-## Description
-
 Hey there! Welcome to the code of my personal portfolio website, crafted with the core web trifecta: HTML, CSS, and JavaScript. Dive into my world of web development, where clean design meets functionality. Enjoy browsing through my projects and get a glimpse of my coding journey!
 
 ## Preview
