@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Anurati';
+    src: url(fonts/Anurati-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Matrix';
+    src: url(fonts/Matrix.ttf) format('truetype');
+}
+
+
+body {
+    --accent-color: black;
+    --background-color: white;
+    --transition-delay: 0.3s;
+
+    font-family: 'Lexend', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    height: 200vh;
+}
+
+body.dark {
+    --accent-color: white;
+    --background-color: black;
+}
+
+/* Matrix Background */
+#matrixCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--background-color);
+    z-index: -1; /* Ensures the canvas is behind other content */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/*
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+    border: 6px solid black;
+    background-clip: content-box;
+  }
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 0px 40px;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-size: 16.5px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10px;
+    transition: var(--transition-delay) ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: var(--transition-delay) ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button a {
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-self: right;
+    justify-content: right;
+    padding: 20px 0px;
+    margin: 0 12.5px;
+}
+
+
+li a:hover {
+    font-size: 18px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Optional: larger shadow on hover */
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#hero-image {
+    width: 42.5%;
+    object-fit: cover;
+    object-position: right;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hero-content {
+    text-align: left;
+    color: var(--accent-color);
+    margin-left: 5em;
+    transition: var(--transition-delay) ease;
+}
+
+.hero-content h1 {
+    font-family: 'Anurati';
+    font-weight: 100;
+    font-size: 6em;
+    margin-bottom: 30px;
+}
+
+/* tech logos */
+.tech-icons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+.tech-icons img {
+    height: 50px; /* Adjust the size as needed */
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  
+    /* Squaricle styling */
+    background-color: var(--accent-color);
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.tech-icons img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Optional: larger shadow on hover */
+}
