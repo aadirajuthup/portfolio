@@ -25,7 +25,7 @@ Run with Live Server in VSCode
 I wanna make the design responsive. Add in a section for all my achievements and projects. A contact, about me, etc... Just complete all that stuff.
 
 ## Authors and acknowledgment
-
+```
 Last but not least, I wanna thank me
 I wanna thank me for believing in me
 I wanna thank me for doing all this hard work
@@ -36,7 +36,7 @@ And tryna give more than I receive
 I wanna thank me for tryna do more right than wrong
 I wanna thank me for just being me at all times
 Aadi, you a badass
-
+```
 ## License
 
 You may use this project of mine for educational purposes, inspirational or anything non-commercial. Do mention me and tag my link in bio or GitHub Account.
