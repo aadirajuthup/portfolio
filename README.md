@@ -10,7 +10,7 @@ Hey there! Welcome to the code of my personal portfolio website, crafted with th
 
 ## Setup and Run on Localhost
 
-git clone https://github.com/yourusername/yourprojectname.git
+```git clone https://github.com/aadirajuthup/portfolio.git```
 
 or just download and extract as zip
 
