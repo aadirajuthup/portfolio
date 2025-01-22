@@ -74,6 +74,7 @@ I wanna thank me for tryna do more right than wrong
 I wanna thank me for just being me at all times
 Aadi, you a badass
 ```
+credits: Snoop Dogg
 
 ## License
 
