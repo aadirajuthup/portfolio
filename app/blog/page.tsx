@@ -44,3 +44,8 @@ export default async function BlogPage() {
     </section>
   );
 }
+
+export type BlogPageProps = {
+  params: {};
+  searchParams?: { [key: string]: string | string[] | undefined };
+};

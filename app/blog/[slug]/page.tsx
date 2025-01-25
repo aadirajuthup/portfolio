@@ -4,21 +4,20 @@ import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import { NextPage } from "next";
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<Array<{ slug: string }>> {
   const posts = await getBlogPosts();
   return posts.map((post) => ({ slug: post.slug }));
 }
 
-interface Params {
+export async function generateMetadata({
+  params,
+}: {
   params: {
     slug: string;
   };
-}
-
-export async function generateMetadata({
-  params,
-}: Params): Promise<Metadata | undefined> {
+}): Promise<Metadata | undefined> {
   let post = await getPost(params.slug);
 
   let {
@@ -53,12 +52,11 @@ export async function generateMetadata({
   };
 }
 
-export default async function Blog({
+export default async function BlogPage({
   params,
 }: {
-  params: {
-    slug: string;
-  };
+  params: { slug: string };
+  searchParams?: { [key: string]: string | string[] | undefined };
 }) {
   let post = await getPost(params.slug);
 
