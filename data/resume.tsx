@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full-time Student at IIT Madras, pursuing a B.S in Data Science and Programming. Full-Stack Developer building Websites, Apps and Training AI Models. Active on GitHub and Instagram",
   summary:
-    "[At the end of 2023, I dropped out of NIT Calicut to go fulltime into the IIT Madras Data Science program and upskilling myself](/#education). In the past, I've worked as a freelancer and with my dad repairing systems, building servers, networks, software for various real-world applications. interned at a real estate company as a designer, and [competed in over 3 hackathons for fun](/#hackathons). [I also had the pleasure of learning through platforms like ProgrammingHub and Scrimba securing Google Developers LaunchPad Certification](https://dub.sh/certificates).",
+    "[At the end of 2023, I dropped out of NIT Calicut to go fulltime into the IIT Madras Data Science program and upskilling myself](/#education). In the past, I've worked as a freelancer and with my dad repairing systems, building servers, networks, software for various real-world applications. interned at a real estate company as a designer, and [competed in over 3 hackathons for fun](/#hackathons). [I also had the pleasure of learning through platforms like ProgrammingHub and Scrimba securing Google Developers LaunchPad Certification](https://direct.me/aadirajuthup/certifications/m4Kf).",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -33,21 +33,21 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/aadirajuthup-github",
+        url: "https://git.new/aadirajuthup-github",
         icon: Icons.github,
 
         navbar: true,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://dub.sh/aadirajuthup-instagram",
+        url: "https://www.instagram.com/aadirajuthup/",
         icon: Icons.instagram,
 
         navbar: true
       },
       WhatsApp: {
         name: "WhatsApp",
-        url: "https://dub.sh/aadirajuthup-whatsapp",
+        url: "https://api.whatsapp.com/send?phone=919061211511&text=Hi%2C%20I%20checked%20out%20your%20portfolio%20and%20came%20from%20there!%20%F0%9F%91%8B",
         icon: Icons.whatsapp,
 
         navbar: true,
