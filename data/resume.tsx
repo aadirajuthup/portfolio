@@ -294,6 +294,17 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Microsoft AI Skills Fest GUINNESS WORLD RECORDS™ Attempt",
+      dates: "April 8th - May 28, 2025",
+      location: "Online",
+      description:
+        "Participated in the Microsoft AI Skills Fest, a global event aimed at breaking the GUINNESS WORLD RECORDS™ title for the most people trained in AI in 24 hours. The event featured a series of workshops and training sessions led by industry experts.",
+      icon: "public",
+      image:
+        "/msskillsfest.png",
+      links: [],
+    },
+    {
       title: "Quantageddon",
       dates: "January 1st - 6th, 2025",
       location: "Chennai, India",
