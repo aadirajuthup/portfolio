@@ -64,6 +64,30 @@ export const DATA = {
 
   work: [
     {
+      company: "Scale AI",
+      href: "https://scale.com",
+      badges: ['Python', 'TensorFlow', 'PyTorch', 'Kubernetes', 'Linux'],
+      location: "Remote",
+      title: "AI-Ops Developer",
+      logoUrl: "/scale.png",
+      start: "February 2025",
+      end: "Present",
+      description:
+        "As an AI-Ops Developer at Scale AI, I integrate data and operational systems to streamline AI training. I apply my skills in Kubernetes and TensorFlow to support cutting-edge models, including those refined with RLHF techniques.",
+    },
+    {
+      company: "Outlier AI",
+      href: "https://outlier.ai",
+      badges: ['Python', 'TensorFlow', 'PyTorch', 'NumPy', 'RLHF',],
+      location: "Remote",
+      title: "AI-ML Engineer",
+      logoUrl: "/outlier.jpg",
+      start: "February 2025",
+      end: "Present",
+      description:
+        "As an AI-ML Engineer at Outlier AI, I develop and refine machine learning models using frameworks like PyTorch and TensorFlow. I focus on crafting training datasets and applying RLHF to align AI outputs with expert standards.",
+    },
+    {
       company: "Airlinks Systems",
       href: "#",
       badges: ['Next.js', 'RAT', 'IoT', 'Reverse Engineering'],
@@ -71,7 +95,7 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "/atomic.png",
       start: "January 2024",
-      end: "Present",
+      end: "December 2024",
       description:
         "R&D of RPI based real-time IoT two way PA system. Setup and maintained physical server. Developed port-forwarding and VPN solutions for remote access. Reverse engineered and developed custom deployment mechanisms for Ubiquiti™ UISP server architecture.",
     },
@@ -128,6 +152,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Veritas Gnosis: Personal Blog",
+      href: "#",
+      dates: "Coming Soon",
+      active: true,
+      description:
+        "Full-Stack responsive personal blog coming soon! I'm currently working on it, you can still checkout on early verison of it below.",
+      technologies: [
+        "Next.js",
+        "Hugo",
+        "Markdown",
+        "Postgres",
+        "Linux",
+        "GitHub Pages",
+      ],
+      links: [
+        {
+          type: "Demo - Under Construction",
+          href: "https://aadirajuthup.github.io/veritas-gnosis/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://github.com/aadirajuthup/aadirajuthup/raw/refs/heads/master/public/veritas-gnosis.mp4",
+    },
+    {
       title: "Ubiquiti™ UISP",
       href: "https://uisp.com/uisp-overview",
       dates: "June 2021 - Present",
@@ -158,7 +207,7 @@ export const DATA = {
       video: "https://github.com/aadirajuthup/aadirajuthup/raw/refs/heads/master/public/uisp.mp4",
     },
     {
-      title: "OpenWebUI Ollama Google Colab Notebook",
+      title: "OpenWebUI + Ollama: Colab Notebook",
       href: "https://colab.research.google.com/github/aadirajuthup/OpenWebUI-Ollama-Google-Colab/blob/main/notebook.ipynb",
       dates: "January 2025 - Present",
       active: true,
@@ -244,6 +293,17 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Microsoft AI Skills Fest GUINNESS WORLD RECORDS™ Attempt",
+      dates: "April 8th - May 28, 2025",
+      location: "Online",
+      description:
+        "Participated in the Microsoft AI Skills Fest, a global event aimed at breaking the GUINNESS WORLD RECORDS™ title for the most people trained in AI in 24 hours. The event featured a series of workshops and training sessions led by industry experts.",
+      icon: "public",
+      image:
+        "/msskillsfest.png",
+      links: [],
+    },
     {
       title: "Quantageddon",
       dates: "January 1st - 6th, 2025",
